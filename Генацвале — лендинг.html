@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f7efdf">
+<title>Генацвале — вкус настоящей Грузии</title>
+<style>
+:root{--cream:#f7efdf;--ink:#291d19;--wine:#7c1834;--red:#a92536;--orange:#ef7b32;--gold:#e8b94e;--olive:#747b3d;--muted:#75675d;--radius:30px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,Helvetica,sans-serif;overflow-x:hidden}a{color:inherit;text-decoration:none}button,a{-webkit-tap-highlight-color:transparent}.wrap{width:min(1180px,calc(100% - 40px));margin:auto}.eyebrow{font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:var(--wine)}h1,h2,h3,p{margin-top:0}h1,h2,.serif{font-family:Georgia,'Times New Roman',serif}h2{font-size:clamp(2.2rem,5vw,4.2rem);letter-spacing:-.045em;line-height:1.02;margin-bottom:18px}.section{padding:100px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:36px}.section-head p{max-width:420px;color:var(--muted);line-height:1.7;margin:0}.nav{position:sticky;top:0;z-index:20;padding:12px 0;margin-bottom:-1px;background:#f7efdfc9;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid #6b4a381c}.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{font-family:Georgia,serif;font-weight:900;font-size:1.5rem;color:var(--wine);white-space:nowrap}.logo span{display:block;font-family:Arial,sans-serif;font-size:.57rem;letter-spacing:.19em;text-transform:uppercase;color:var(--muted);margin-top:2px}.links{display:flex;gap:24px;align-items:center;font-size:.88rem;font-weight:700}.links a:not(.btn):hover{color:var(--red)}.btn{display:inline-flex;justify-content:center;align-items:center;gap:10px;border:0;border-radius:999px;padding:15px 22px;background:var(--wine);color:white;font-weight:800;cursor:pointer;transition:transform .25s,box-shadow .25s,background .25s}.btn:hover{transform:translateY(-3px);box-shadow:0 12px 28px #7c18343b;background:#9b203d}.btn-light{background:var(--gold);color:var(--ink)}.btn-light:hover{background:#f2c85e}.burger{display:none;background:var(--wine);color:white;border:0;border-radius:50%;width:46px;height:46px;font-size:1.35rem;cursor:pointer}.hero{padding:46px 0 35px}.hero-panel{position:relative;isolation:isolate;overflow:hidden;border-radius:42px;min-height:570px;padding:clamp(30px,6vw,76px);display:flex;align-items:center;background:radial-gradient(circle at 82% 20%,#ef9a45 0,transparent 27%),linear-gradient(125deg,#761a35 0%,#a62936 52%,#d85d32 100%);color:white}.hero-panel:before,.hero-panel:after{content:"";position:absolute;z-index:-1;border-radius:50%;border:1px solid #ffffff35}.hero-panel:before{width:460px;height:460px;right:-50px;top:30px;box-shadow:0 0 0 35px #ffffff08,0 0 0 75px #ffffff08}.hero-panel:after{width:280px;height:280px;right:55px;top:120px;background:linear-gradient(145deg,#f4c75e,#f18b39);opacity:.9}.hero-copy{max-width:650px;position:relative;z-index:2}.hero .eyebrow{color:#ffd77a}.hero h1{font-size:clamp(3.2rem,8vw,7rem);line-height:.91;letter-spacing:-.065em;margin:20px 0 24px;max-width:700px}.hero h1 em{color:#ffd77a;font-style:normal}.hero-copy>p{font-size:1.08rem;line-height:1.7;color:#fff0e6;max-width:490px;margin-bottom:28px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.hero-stamp{position:absolute;right:8%;bottom:11%;width:126px;height:126px;border-radius:50%;background:var(--cream);color:var(--wine);display:grid;place-items:center;text-align:center;transform:rotate(12deg);font-weight:900;line-height:1.2;padding:15px;box-shadow:0 14px 30px #45121d30}.hero-stamp b{font-family:Georgia,serif;font-size:1.5rem}.float{position:absolute;font-size:2.2rem;animation:float 4s ease-in-out infinite;z-index:1}.f1{right:26%;top:13%}.f2{right:7%;top:48%;animation-delay:-1.4s}.f3{right:32%;bottom:13%;animation-delay:-2.5s}@keyframes float{0%,100%{transform:translateY(0) rotate(-5deg)}50%{transform:translateY(-15px) rotate(8deg)}}.ticker{overflow:hidden;background:var(--gold);color:var(--wine);padding:14px 0;font-weight:900;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}.ticker-track{display:inline-block;min-width:200%;animation:marquee 24s linear infinite}.ticker span{padding:0 22px}@keyframes marquee{to{transform:translateX(-50%)}}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}.about-art{min-height:380px;border-radius:var(--radius);padding:30px;display:flex;align-items:end;background:radial-gradient(circle at 30% 20%,#f4c65d,transparent 26%),linear-gradient(140deg,#e7a047,#c34c31 58%,#7c1834);position:relative;overflow:hidden;color:white}.about-art:before{content:"";position:absolute;width:270px;height:270px;border:1px solid #ffffff60;border-radius:50%;top:40px;left:calc(50% - 135px);box-shadow:0 0 0 25px #ffffff12,0 0 0 55px #ffffff12}.plate{position:absolute;left:50%;top:45%;transform:translate(-50%,-50%);width:205px;height:205px;border-radius:50%;background:#f8e8c7;border:12px solid #fff7e5;box-shadow:0 15px 40px #63231945;display:grid;place-items:center;font-size:6.5rem}.about-art small{position:relative;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.about-copy{background:#fffaf0;border-radius:var(--radius);padding:clamp(28px,5vw,54px);display:flex;flex-direction:column;justify-content:center}.about-copy p{color:var(--muted);line-height:1.8}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}.stat{padding:18px 12px;background:#f4e6d1;border-radius:18px}.stat b{display:block;color:var(--wine);font: bold 1.7rem Georgia,serif}.stat span{font-size:.78rem;color:var(--muted)}.menu-section{background:#efe2cd;border-radius:42px;padding:80px 0}.menu-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:minmax(190px,auto);gap:16px}.dish{position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;border-radius:26px;padding:24px;min-height:220px;background:#fff8eb;transition:transform .3s,box-shadow .3s}.dish:hover{transform:translateY(-7px) rotate(-.5deg);box-shadow:0 18px 32px #52241418}.dish.wide{grid-column:span 2}.dish.tall{grid-row:span 2}.dish-top{display:flex;justify-content:space-between;gap:10px;align-items:start}.dish-emoji{font-size:3.5rem;filter:drop-shadow(0 8px 5px #6d3d2520);transition:transform .3s}.dish:hover .dish-emoji{transform:scale(1.12) rotate(7deg)}.tag{background:#f2e3ce;color:var(--wine);font-size:.68rem;font-weight:900;text-transform:uppercase;letter-spacing:.06em;border-radius:999px;padding:8px 10px}.dish h3{font: bold 1.55rem Georgia,serif;margin:12px 0 7px}.dish p{font-size:.9rem;color:var(--muted);line-height:1.55;margin-bottom:15px;max-width:350px}.dish-bottom{display:flex;justify-content:space-between;align-items:center;gap:12px}.price{font-weight:900;color:var(--wine);font-size:1.15rem}.price small{font-size:.72rem;color:var(--muted);font-weight:600}.dish.red{background:linear-gradient(140deg,#861c37,#b72f39);color:white}.dish.red p,.dish.red .price small{color:#f7d9cc}.dish.red .tag{background:#ffffff20;color:#ffe5a0}.dish.gold{background:linear-gradient(145deg,#f5cb63,#ee963d)}.dish.olive{background:linear-gradient(145deg,#777f42,#525b2d);color:white}.dish.olive p,.dish.olive .price small{color:#edf0d5}.dish.olive .tag{background:#ffffff22;color:#fff4c5}.offers{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.offer{border-radius:28px;padding:28px;min-height:270px;display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;transition:transform .25s}.offer:hover{transform:translateY(-6px)}.offer:nth-child(1){background:linear-gradient(140deg,#7c1834,#b22d3d);color:white}.offer:nth-child(2){background:linear-gradient(140deg,#f4c65e,#ed8b37)}.offer:nth-child(3){background:linear-gradient(140deg,#7d8546,#525c30);color:white}.offer .offer-icon{font-size:2.7rem}.offer h3{font: bold 1.7rem Georgia,serif;margin:22px 0 10px}.offer p{line-height:1.65;opacity:.82;margin-bottom:0}.offer .fine{font-size:.75rem;opacity:.7;margin-top:18px}.loyalty{background:linear-gradient(125deg,#7c1834,#9f2639 55%,#d35d34);border-radius:42px;color:white;padding:clamp(30px,6vw,70px);overflow:hidden;position:relative}.loyalty:after{content:"✦";position:absolute;right:6%;top:-30px;font-size:17rem;color:#ffffff0b;line-height:1}.loyalty .eyebrow{color:#ffd77a}.loyalty .section-head{position:relative;z-index:1}.loyalty .section-head p{color:#f5d9d1}.loyalty-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;position:relative;z-index:1}.steps{display:grid;gap:12px}.step{display:flex;gap:15px;align-items:flex-start;padding:17px;background:#ffffff12;border:1px solid #ffffff24;border-radius:19px}.step-num{flex:0 0 39px;height:39px;border-radius:13px;display:grid;place-items:center;background:var(--gold);color:var(--wine);font-weight:900}.step b{display:block;margin:1px 0 5px}.step p{margin:0;color:#f3d7d2;font-size:.88rem;line-height:1.5}.levels{display:grid;gap:12px}.level{background:#fffaf0;color:var(--ink);border-radius:20px;padding:19px 21px;display:flex;justify-content:space-between;align-items:center;gap:15px}.level strong{font: bold 1.3rem Georgia,serif}.level span{font-size:.82rem;color:var(--muted);display:block;margin-top:4px}.level b{color:var(--wine);font-size:1.05rem;white-space:nowrap}.level:nth-child(2){background:#f8d98a}.level:nth-child(3){background:#dfe2b9}.contacts-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:18px}.contact-card{padding:clamp(25px,4vw,42px);border-radius:var(--radius);background:#fffaf0}.contact-list{display:grid;gap:20px;margin-top:28px}.contact-item{display:flex;gap:14px;align-items:flex-start}.contact-icon{width:44px;height:44px;flex:0 0 44px;border-radius:15px;display:grid;place-items:center;background:#f1e2cc;font-size:1.25rem}.contact-item small{display:block;color:var(--muted);margin-bottom:5px}.contact-item b{line-height:1.5}.map-card{min-height:390px;border-radius:var(--radius);overflow:hidden;position:relative;background:linear-gradient(135deg,#d6d8a7,#a5ad72 45%,#e9c179);display:grid;place-items:center}.map-lines{position:absolute;inset:-20%;background:repeating-linear-gradient(35deg,transparent 0 36px,#ffffff80 37px 42px,transparent 43px 75px),repeating-linear-gradient(120deg,transparent 0 52px,#ffffff55 53px 57px,transparent 58px 94px);transform:rotate(-8deg)}.map-pin{position:relative;display:grid;place-items:center;gap:14px;text-align:center}.pin{width:80px;height:80px;border-radius:50% 50% 50% 8px;transform:rotate(-45deg);background:var(--wine);color:white;display:grid;place-items:center;font-size:2rem;box-shadow:0 14px 30px #382f1b30}.pin span{transform:rotate(45deg)}.map-label{background:#fffaf0;padding:14px 20px;border-radius:18px;font-weight:900;box-shadow:0 10px 25px #382f1b20}.map-note{position:absolute;bottom:20px;left:20px;right:20px;text-align:center;font-size:.8rem;color:#39401f}.footer{padding:30px 0 40px}.footer-inner{display:flex;justify-content:space-between;gap:20px;align-items:center;border-top:1px solid #7b60412b;padding-top:25px;color:var(--muted);font-size:.83rem}.footer .logo{color:var(--wine)}.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:translateY(0)}.no-js .reveal{opacity:1;transform:none}.reservation-note{font-size:.8rem;color:var(--muted);margin-top:14px;line-height:1.5}
+@media(max-width:900px){.links{gap:13px;font-size:.8rem}.links .btn{padding:12px 15px}.hero-panel{min-height:530px}.hero-stamp{right:6%;bottom:7%;width:100px;height:100px;font-size:.8rem}.menu-grid{grid-template-columns:repeat(2,1fr)}.dish.tall{grid-row:span 1}.offers{grid-template-columns:1fr 1fr}.offer:last-child{grid-column:span 2;min-height:220px}.section{padding:78px 0}.menu-section{padding:65px 0}}
+@media(max-width:680px){.wrap{width:min(100% - 28px,1180px)}.nav{padding:9px 0}.nav-inner{flex-wrap:wrap}.burger{display:block}.links{display:none;order:3;width:100%;padding:12px 0 8px;flex-direction:column;align-items:stretch;gap:4px}.links.open{display:flex}.links a:not(.btn){padding:12px 8px;border-radius:10px}.links a:not(.btn):hover{background:#eadcc8}.links .btn{margin-top:5px}.hero{padding-top:18px}.hero-panel{min-height:570px;padding:30px 24px 145px;border-radius:30px;align-items:flex-start}.hero h1{font-size:clamp(3.2rem,15vw,5rem);margin-top:17px}.hero-copy>p{font-size:.98rem}.hero-panel:before{width:280px;height:280px;right:-75px;top:auto;bottom:-20px}.hero-panel:after{width:180px;height:180px;right:0;top:auto;bottom:24px}.hero-stamp{width:83px;height:83px;right:20px;bottom:20px;font-size:.65rem;padding:9px}.hero-stamp b{font-size:1.15rem}.float{font-size:1.6rem}.f1{right:12%;top:50%}.f2{right:4%;top:72%}.f3{right:35%;bottom:6%}.hero-actions .btn{width:100%}.section{padding:65px 0}.section-head{display:block;margin-bottom:27px}.section-head p{margin-top:12px}.about-grid,.loyalty-grid,.contacts-grid{grid-template-columns:1fr}.about-art{min-height:300px}.about-copy{padding:27px}.stats{gap:7px}.stat{padding:14px 9px}.stat b{font-size:1.35rem}.stat span{font-size:.68rem}.menu-section{border-radius:28px;padding:55px 0}.menu-grid{grid-template-columns:1fr;grid-auto-rows:auto}.dish,.dish.wide{grid-column:auto;min-height:210px;padding:22px}.dish-emoji{font-size:3rem}.offers{grid-template-columns:1fr}.offer,.offer:last-child{grid-column:auto;min-height:230px}.loyalty{border-radius:28px;padding:30px 20px}.loyalty .section-head{margin-bottom:26px}.level{padding:16px}.level strong{font-size:1.15rem}.level b{font-size:.92rem}.map-card{min-height:300px}.footer-inner{flex-direction:column;align-items:flex-start}.ticker-track{animation-duration:30s}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body class="no-js">
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="logo" href="#top">Генацвале<span>вкус настоящей Грузии</span></a>
+    <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    <nav class="links" id="navlinks" aria-label="Главная навигация">
+      <a href="#about">О нас</a><a href="#menu">Меню</a><a href="#offers">Акции</a><a href="#loyalty">Бонусы</a><a href="#contacts">Контакты</a>
+      <a class="btn" href="#contacts">Забронировать ↗</a>
+    </nav>
+  </div>
+</header>
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-panel">
+        <div class="hero-copy">
+          <div class="eyebrow">Грузинское гостеприимство каждый день</div>
+          <h1>Там, где<br>вкусно — <em>там дом.</em></h1>
+          <p>Щедрые застолья, горячие хинкали и вино с характером. Приходи голодным — уходи почти родственником.</p>
+          <div class="hero-actions"><a class="btn btn-light" href="#contacts">Забронировать стол <span>↗</span></a><a class="btn" href="#menu" style="background:#ffffff20;border:1px solid #ffffff55">Смотреть меню ↓</a></div>
+        </div>
+        <span class="float f1">✦</span><span class="float f2">🍷</span><span class="float f3">🌿</span>
+        <div class="hero-stamp"><div><b>გემრიელი</b><br>Сделано<br>с душой</div></div>
+      </div>
+    </div>
+  </section>
+  <div class="ticker" aria-label="Наши ценности"><div class="ticker-track"><span>მოგესალმებით · Добро пожаловать</span> ✦ <span>Вкус Грузии</span> ✦ <span>Тепло большого застолья</span> ✦ <span>Вино, друзья и хинкали</span> ✦ <span>მოგესალმებით · Добро пожаловать</span> ✦ <span>Вкус Грузии</span> ✦ <span>Тепло большого застолья</span> ✦ <span>Вино, друзья и хинкали</span> ✦ </div></div>
+  <section class="section" id="about">
+    <div class="wrap about-grid reveal">
+      <div class="about-art"><div class="plate">🥘</div><small>С любовью из Грузии</small></div>
+      <div class="about-copy"><div class="eyebrow">Наша история</div><h2>Не просто ресторан.<br>По-семейному.</h2><p>«Генацвале» — это место, где стол всегда щедрый, разговоры долгие, а гостя встречают как старого друга. Мы вдохновляемся традициями грузинской кухни: готовим с душой, выбираем яркие специи и верим, что вкуснее всего — разделить любимые блюда с близкими.</p><p>Здесь можно собраться всей семьёй, устроить вечер с друзьями или просто заглянуть за порцией домашних хинкали.</p>
+        <div class="stats"><div class="stat"><b>100%</b><span>души в каждом блюде</span></div><div class="stat"><b>6+</b><span>вкусов традиции</span></div><div class="stat"><b>1</b><span>большая семья</span></div></div>
+      </div>
+    </div>
+  </section>
+  <section class="menu-section" id="menu">
+    <div class="wrap">
+      <div class="section-head reveal"><div><div class="eyebrow">Из печи и с огня</div><h2>Вкусное знакомство</h2></div><p>Рецепты, которые хочется заказывать снова. Выбирай любимое — и оставь место для ещё одного кусочка.</p></div>
+      <div class="menu-grid">
+        <article class="dish wide red reveal"><div class="dish-top"><span class="dish-emoji">🥟</span><span class="tag">Хит гостей</span></div><div><h3>Хинкали</h3><p>Сочные мешочки из тонкого теста с пряной мясной начинкой и ароматным бульоном.</p><div class="dish-bottom"><span class="price">390 ₽ <small>/ 3 шт.</small></span><span>✦ ✦ ✦</span></div></div></article>
+        <article class="dish gold reveal"><div class="dish-top"><span class="dish-emoji">🧀</span><span class="tag">Из печи</span></div><div><h3>Хачапури по-аджарски</h3><p>Румяная лодочка с сыром, яйцом и сливочным маслом.</p><div class="dish-bottom"><span class="price">590 ₽</span><span>♡</span></div></div></article>
+        <article class="dish tall reveal"><div class="dish-top"><span class="dish-emoji">🍢</span><span class="tag">С огня</span></div><div><h3>Шашлык</h3><p>Маринованное мясо на углях, с дымком, зеленью и свежим луком.</p><div class="dish-bottom"><span class="price">790 ₽ <small>/ 300 г</small></span><span>✦</span></div></div></article>
+        <article class="dish olive reveal"><div class="dish-top"><span class="dish-emoji">🍗</span><span class="tag">Классика</span></div><div><h3>Сациви</h3><p>Нежная птица в густом ореховом соусе с грузинскими специями.</p><div class="dish-bottom"><span class="price">520 ₽</span><span>♡</span></div></div></article>
+        <article class="dish reveal"><div class="dish-top"><span class="dish-emoji">🍲</span><span class="tag">Согревает</span></div><div><h3>Харчо</h3><p>Насыщенный суп с говядиной, рисом, зеленью и пряной кислинкой.</p><div class="dish-bottom"><span class="price">450 ₽</span><span>♡</span></div></div></article>
+        <article class="dish wide reveal"><div class="dish-top"><span class="dish-emoji">🍷</span><span class="tag">Грузинская классика</span></div><div><h3>Саперави</h3><p>Насыщенное красное вино с ягодными нотами — к мясу, сырам и долгим разговорам.</p><div class="dish-bottom"><span class="price">490 ₽ <small>/ бокал</small></span><span>✦ ✦ ✦</span></div></div></article>
+      </div>
+      <p class="reservation-note">Цены и состав блюд приведены для демонстрационного макета и могут отличаться от реального меню.</p>
+    </div>
+  </section>
+  <section class="section" id="offers">
+    <div class="wrap">
+      <div class="section-head reveal"><div><div class="eyebrow">Есть повод заглянуть</div><h2>Вкусные поводы</h2></div><p>Немного больше радости к любимым блюдам. Выбирай повод и собирай свою компанию.</p></div>
+      <div class="offers">
+        <article class="offer reveal"><div><div class="offer-icon">🥟</div><h3>Хинкали-среда</h3><p>Каждую среду — второй сет хинкали со скидкой 50%.</p></div><div class="fine">Предложение действует по средам.</div></article>
+        <article class="offer reveal"><div><div class="offer-icon">🎂</div><h3>День рождения</h3><p>Скидка 15% имениннику в день рождения и 3 дня после.</p></div><div class="fine">При предъявлении документа.</div></article>
+        <article class="offer reveal"><div><div class="offer-icon">🍯</div><h3>Сладкий комплимент</h3><p>Домашний десерт в подарок при заказе от 2 500 ₽.</p></div><div class="fine">Один комплимент на стол.</div></article>
+      </div>
+      <p class="reservation-note">Акции демонстрационные: перед публикацией замените их на реальные предложения ресторана.</p>
+    </div>
+  </section>
+  <section class="section" id="loyalty">
+    <div class="wrap">
+      <div class="loyalty reveal">
+        <div class="section-head"><div><div class="eyebrow">Больше встреч — больше бонусов</div><h2>Семья своих</h2></div><p>Присоединяйся к бонусной программе, копи баллы с каждого визита и обменивай их на любимые блюда.</p></div>
+        <div class="loyalty-grid">
+          <div class="steps">
+            <div class="step"><div class="step-num">01</div><div><b>Зарегистрируйся</b><p>Получи виртуальную карту при первом посещении.</p></div></div>
+            <div class="step"><div class="step-num">02</div><div><b>Копи баллы</b><p>Начисляем бонусы за каждый оплаченный заказ.</p></div></div>
+            <div class="step"><div class="step-num">03</div><div><b>Оплачивай любимое</b><p>Используй накопления при следующем визите.</p></div></div>
+          </div>
+          <div class="levels">
+            <div class="level"><div><strong>Гость</strong><span>После регистрации</span></div><b>3% бонусами</b></div>
+            <div class="level"><div><strong>Друг</strong><span>После 5 визитов</span></div><b>5% бонусами</b></div>
+            <div class="level"><div><strong>Генацвале</strong><span>После 10 визитов</span></div><b>10% бонусами</b></div>
+          </div>
+        </div>
+        <p class="reservation-note" style="color:#f3d7d2">Условия программы демонстрационные. Уточните реальные правила, сроки действия баллов и ограничения перед запуском.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="contacts">
+    <div class="wrap">
+      <div class="section-head reveal"><div><div class="eyebrow">Ждём в гости</div><h2>Давай за стол?</h2></div><p>Пиши, звони или заходи просто так — для хорошей компании всегда найдётся место.</p></div>
+      <div class="contacts-grid reveal">
+        <div class="contact-card"><div class="eyebrow">Контакты</div><h3 class="serif" style="font-size:1.8rem;margin:12px 0 0">До встречи в «Генацвале»</h3>
+          <div class="contact-list">
+            <div class="contact-item"><div class="contact-icon">📍</div><div><small>Адрес</small><b>ул. Примерная, 12, Санкт-Петербург</b></div></div>
+            <div class="contact-item"><div class="contact-icon">☎️</div><div><small>Бронирование</small><b><a href="tel:+78120000000">+7 (812) 000-00-00</a></b></div></div>
+            <div class="contact-item"><div class="contact-icon">🕰️</div><div><small>Часы работы</small><b>Ежедневно: 12:00–23:00</b></div></div>
+          </div>
+          <a class="btn" href="tel:+78120000000" style="margin-top:30px">Позвонить и забронировать ↗</a>
+          <p class="reservation-note">Контактные данные указаны как пример — замените на реальные.</p>
+        </div>
+        <div class="map-card" aria-label="Декоративная иллюстрация карты, не является точной картой адреса"><div class="map-lines"></div><div class="map-pin"><div class="pin"><span>⌖</span></div><div class="map-label">Генацвале · ждём тебя!</div></div><div class="map-note">Здесь может быть ваша точная карта или схема проезда</div></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><a class="logo" href="#top">Генацвале<span>вкус настоящей Грузии</span></a><span>© 2026 «Генацвале». Сделано с душой ♥</span><a href="#top">Наверх ↑</a></div></footer>
+<script>
+document.body.classList.remove('no-js');
+const burger=document.getElementById('burger');
+const navlinks=document.getElementById('navlinks');
+burger.addEventListener('click',()=>{const open=navlinks.classList.toggle('open');burger.setAttribute('aria-expanded',String(open));burger.textContent=open?'✕':'☰';});
+navlinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navlinks.classList.remove('open');burger.setAttribute('aria-expanded','false');burger.textContent='☰';}));
+const items=document.querySelectorAll('.reveal');
+if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target);}}),{threshold:.12});items.forEach(item=>observer.observe(item));}else{items.forEach(item=>item.classList.add('visible'));}
+</script>
+</body>
+</html>
